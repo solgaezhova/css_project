@@ -1,0 +1,124 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    margin: 0;
+}
+.introduction {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 1rem 8rem 8rem 8rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px; 
+}
+nav a:hover {
+    color: #3882F6;
+}
+#logo {
+    color: #3882F6;
+    font-size: 24px;
+}
+#logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.description img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 200px;
+    height: auto;
+}
+.sign-up {
+    color: white;
+    background: #3882F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 2rem;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    height: 100%;
+    max-width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.gallery img:hover {
+    opacity: 0.5;
+}
+figcaption {
+    text-align: center;
+}
+.citation {
+    background: #E5E7EB;
+    padding: 5rem 10rem;
+    margin: 5rem 0;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+span {
+    color: #3882F6;
+}
+.citation div {
+    font-weight: 800;
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #E5E7EB;
+    background: #3882F6;
+    margin: 5rem 8rem;
+    padding: 2rem 8rem;
+    border-radius: 8px;
+}
+.action-button {
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2rem;
+}

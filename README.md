@@ -2,4 +2,4 @@
  
 This is an example of a website built with HTML and CSS (Flexbox).
 
-Link to the website.
+Link to the website - https://solgaezhova.github.io/css_project/.

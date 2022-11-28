@@ -1,4 +1,4 @@
-.main h2 {
+.main-section h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -30,7 +30,7 @@ figcaption {
     padding: 5rem 15rem;
     margin: 5rem 0;
 }
-.citation p {
+.citation blockquote {
     font-size: 36px;
     font-weight: 200;
     font-style: italic;
@@ -39,7 +39,7 @@ figcaption {
 span {
     color: #3882F6;
 }
-.citation div {
+.citation cite {
     font-weight: 800;
     font-size: 1.5rem;
     text-align: end;

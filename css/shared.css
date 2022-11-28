@@ -46,7 +46,7 @@ nav a:hover {
     justify-content: space-between;
     gap: 60px;
 }
-h1 {
+.description-text h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
@@ -56,67 +56,28 @@ h1 {
     font-size: 18px;
 }
 .description img {
+    flex: 1 1 2;
     width: 100%;
     max-width: 700px;
-    min-width: 400px;
+    min-width: 500px;
     height: auto;
 }
 button.sign-up {
+    font-size: 1rem;
     font-weight: 800;
     color: white;
     background: #3882F6;
     height: 2rem;
-    width: 6rem;
+    width: 7rem;
     border-radius: 10px;
-}
-h2 {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
-    text-align: center;
-    margin: 2rem;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.gallery img {
-    height: 100%;
-    max-width: 200px;
-    border: 3px solid #3882F6;
-    border-radius: 8px;
-}
-.gallery img:hover {
-    opacity: 0.5;
-}
-figcaption {
-    text-align: center;
-}
-.citation {
-    background: #E5E7EB;
-    padding: 5rem 15rem;
-    margin: 5rem 0;
-}
-.citation p {
-    font-size: 36px;
-    font-weight: 200;
-    font-style: italic;
-    color: #1F2937;
 }
 span {
     color: #3882F6;
-}
-.citation div {
-    font-weight: 800;
-    font-size: 1.5rem;
-    text-align: end;
 }
 .action {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    color: #E5E7EB;
     background: #3882F6;
     margin: 5rem 10rem;
     padding: 2rem 8rem;
@@ -125,10 +86,16 @@ span {
 .action-text {
     align-self: center;
 }
-.action p {
-    margin-top: -1rem;
+.action-text div {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.action-text p {
+    margin-top: 0.5rem;
 }
 button.action-button {
+    font-size: 1rem;
     font-weight: 800;
     color: white;
     background: #3882F6;
@@ -154,9 +121,6 @@ footer {
     .description {
         display: flex;
         flex-direction: column;
-    }
-    .citation {
-        padding: 5rem 5rem;
     }
     .action {
         display: flex;

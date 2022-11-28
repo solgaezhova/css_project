@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS Assignment</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/shared.css" />
+  <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
@@ -17,20 +18,20 @@
         <img src="images/SwimFast-logos.jpeg" alt="Swimming logo">
       </div>
       <nav>
-        <a href="#">About</a>
-        <a href="#">Events</a>
-        <a href="#">Swimmers</a>
-        <a href="#">Clubs</a>
+        <a href="pages/news.html">News</a>
+        <a href="pages/events.html">Events</a>
+        <a href="pages/swimmers.html">Swimmers</a>
+        <a href="pages/clubs.html">Clubs</a>
       </nav>
     </header>
     <div class="description">
       <div class="description-text">
         <h1>This website is about swimming in the USA</h1>
         <p class="subtext">
-          Here you can find the most up-to-date information on swim events, 
+          Here you can find the most up-to-date information on swim news, events,
           fastest swimmers, and the best swim clubs!
-          No matter whether you are a competitive swimmer 
-          or just love swimming and visiting swim meets, or only
+          No matter whether you are a competitive swimmer,
+          or just love swimming, or only
           going to learn swimming, here you can find all the relevant
           information. <span>SwimFast!</span>
         </p>
@@ -41,38 +42,41 @@
   </section>
 
   <section class="main">
-    <h2>All big swim news in one <span>SwimFast</span> place.</h2>
+    <h2>All information on swim news, top events, 
+      best swimmers, and swim clubs in one <span>SwimFast</span> place.
+    </h2>
     <div class="gallery">
       <figure class="gallery-item">
-        <img src="images/gallery-item-one.jpg" alt="Here goes alt description" />
-        <figcaption>Best swimmers</figcaption>
+        <a href="pages/news.html"><img src="images/gallery-item-one.jpg" alt="A picture of a swimmer"></a>
+        <figcaption>Swim news</figcaption>
       </figure>
       <figure class="gallery-item">
-        <img src="images/gallery-item-two.jpg" alt="Here goes alt description" />
+        <a href="pages/events.html"><img src="images/gallery-item-two.jpg" alt="A picture of a swimmer"><a
+          href="pages/swimmers.html"></a>
         <figcaption>Top events</figcaption>
       </figure>
       <figure class="gallery-item">
-        <img src="images/gallery-item-three.jpg" alt="Here goes alt description" />
-        <figcaption>Best swim clubs</figcaption>
+        <a href="pages/swimmers.html"><img src="images/gallery-item-three.jpg" alt="A picture of a swimmer"></a>
+        <figcaption>Best swimmers</figcaption>
       </figure>
       <figure class="gallery-item">
-        <img src="images/gallery-item-four.jpg" alt="Here goes alt description" />
-        <figcaption>Swim learning</figcaption>
+        <a href="pages/clubs.html"><img src="images/gallery-item-four.jpg" alt="A picture of a swimmer"></a>
+        <figcaption>Swim clubs</figcaption>
       </figure>
     </div>
   </section>
 
   <section class="citation">
     <p>
-    <span>Water</span> is your friend... You don't have to fight with water,
-    just share the same spirit as the water, and it will help you move.
+      <span>Water</span> is your friend... You don't have to fight with water,
+      just share the same spirit as the water, and it will help you move.
     </p>
     <div>- Coach Colin</div>
   </section>
 
   <section class="action">
     <div class="action-text">
-      <h3>Call to action! It's time!</h3>
+      <div>Call to action! It's time!</div>
       <p class="subtext">Sign up for swimming news by clicking that button right over there!</p>
     </div>
     <button class="action-button">Sign up</button>
@@ -82,4 +86,5 @@
     <div>Copyright &copy;</div>
   </footer>
 </body>
+
 </html>

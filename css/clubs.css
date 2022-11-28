@@ -1,0 +1,31 @@
+.main h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 2rem;
+}
+.clubs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.clubs h3 {
+    text-transform: uppercase;
+}
+.clubs article {
+    width: 20%;
+}
+.clubs img {
+    height: auto;
+    width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.clubs img:hover {
+    opacity: 0.5;
+}
+.action {
+    margin-top: 5rem;
+}

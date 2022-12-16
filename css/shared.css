@@ -74,9 +74,11 @@ button.sign-up {
     font-weight: 800;
     color: white;
     background: #3882F6;
+    border-color: #3882F6;
     height: 2rem;
     width: 7rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 span {
     color: #3882F6;
@@ -111,6 +113,7 @@ button.action-button {
     height: 2rem;
     width: 5rem;
     align-self: center;
+    cursor: pointer;
 }
 footer {
     background: #1F2937;

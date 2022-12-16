@@ -2,73 +2,102 @@
     font-family: 'Roboto';
     src:  url(../fonts/Roboto-Regular.ttf) format('truetype');
   }
+
 * {
     box-sizing: content-box;
 }
+
 body {
     margin: 0;
     font-family: Roboto;
 }
+
 header,aside {
     background: #1F2937;
     color: #E5E7EB;
     padding: 1rem 8rem 8rem 8rem;
 }
+
 header {
     display: flex;
     justify-content: space-between;
 }
+
 menu {
     display: flex;
     justify-content: flex-start;
     gap: 2rem;
 }
+
 menu li {
     list-style: none;
 }
+
 menu li a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px; 
 }
+
 menu a:hover {
     color: #3882F6;
 }
+
 #logo {
     color: #3882F6;
     font-size: 24px;
 }
+
 #logo img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
+
 aside {
     display: flex;
     justify-content: space-between;
     gap: 60px;
 }
+
 .description-text {
     flex: 40%;
 }
+
 .description-text h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
 }
+
 .subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
+
 .description-image {
     flex: 60%;
 }
+
+.description-image:hover {
+    transform: scale(1.05);
+}
+
 aside img {
     width: 100%;
     max-width: 800px;
     min-width: 400px;
     height: auto;
 }
+
+.gallery img {
+    margin-bottom: 1rem;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
 button.sign-up {
     font-size: 1rem;
     font-weight: 800;
@@ -80,9 +109,11 @@ button.sign-up {
     border-radius: 10px;
     cursor: pointer;
 }
+
 span {
     color: #3882F6;
 }
+
 .action {
     display: flex;
     justify-content: space-between;
@@ -92,17 +123,21 @@ span {
     padding: 2rem 8rem;
     border-radius: 8px;
 }
+
 .action-text {
     align-self: center;
 }
+
 .action-text div {
     color: #F9FAF8;
     font-size: 1.5rem;
     font-weight: bolder;
 }
+
 .action-text p {
     margin-top: 0.5rem;
 }
+
 button.action-button {
     font-size: 1rem;
     font-weight: 800;
@@ -115,17 +150,21 @@ button.action-button {
     align-self: center;
     cursor: pointer;
 }
+
 footer {
     background: #1F2937;
     color: #E5E7EB;
     text-align: center;
     padding: 2rem;
 }
+
 @media all and (max-width: 1200px) {
     aside {
         display: flex;
         flex-direction: column;
     }
+}
+
 @media all and (max-width: 800px) {
     menu {
         display: flex;
